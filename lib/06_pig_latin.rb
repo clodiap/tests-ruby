@@ -25,5 +25,3 @@ def translate(my_string)
   return final_words.rstrip
 
 end
-
-# p translate("question question")

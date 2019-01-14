@@ -7,6 +7,7 @@ def shout(my_string)
 end
 
 def repeat(my_string, nb = 2)
+
   # array = []
   # while nb > 1
   #   array << "#{my_string} "
@@ -16,26 +17,26 @@ def repeat(my_string, nb = 2)
   #   nb -= 1
   # end
   # return array.join
+
   return ("#{my_string} " * nb).rstrip
 end
-# p repeat("hello", 3)
 
 def start_of_word(my_string, nb)
-  my_string = my_string.chars
-  my_new_string = []
-  0.upto(nb-1) do |i|
-    my_new_string << my_string[i]
-  end
-  return my_new_string.join
+
+  # my_string = my_string.chars
+  # my_new_string = []
+  # 0.upto(nb-1) do |i|
+  #   my_new_string << my_string[i]
+  # end
+  # return my_new_string.join
+
+  return my_string[0,nb]
 end
-# text[0,n]
-# p start_of_word("test", 2)
 
 def first_word(sentence)
   my_sentence = sentence.split(" ")
   return my_sentence[0]
 end
-# p first_word("david copperfield")
 
 def titleize(sentence)
   new_sentence = sentence.split(" ").map.with_index do |x,i|
@@ -47,4 +48,3 @@ def titleize(sentence)
   end
   return new_sentence.join(" ")
 end
-# p titleize("the bridge over the river kwai")

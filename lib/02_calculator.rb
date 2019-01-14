@@ -14,7 +14,6 @@ def sum(array)
   end
   return sum
 end
-# p sum([1,3,5,7,9])
 
 def multiply(nb1,nb2)
   return nb1 * nb2
@@ -31,4 +30,3 @@ def factorial(nb)
     return (1..nb).inject(:*)
   end
 end
-# p factorial(0)
