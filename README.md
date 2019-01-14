@@ -1,6 +1,15 @@
 Small exercices in Ruby -- RSpec 3 Edition
 ==========
 
+Exercices destinés à l'apprentissage des tests sous Ruby ❤️ dans le cadre de la formation THP (la meilleure formation au code de tous les temps ❤️❤️❤️)
+
+Ça n'était pas facile, ***ma c'è l'abbiamo fatta***! (on y est arrivé ^^ ).
+
+ Fork from https://github.com/felhix/tests-ruby forked from [https://github.com/alexch/learn_ruby](https://github.com/alexch/learn_ruby), its original creator.
+
+
+## Original README :
+
 ### Set up instructions
 
 1. Fork this repo
